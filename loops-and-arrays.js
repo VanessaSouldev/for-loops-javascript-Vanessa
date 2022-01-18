@@ -6,15 +6,15 @@
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
 console.log(names)
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i] + "je");
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
-for (let i = 0; i < names.length; i++) {
-    console.log(names[i] + "je");
-}
 
 
 
@@ -48,12 +48,11 @@ for (let i = 0; i < numbers.length; i++) {
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
-
 const squares = [30, 2, 8, 24, 11];
-const total = squares / 3;
-const volume = total * total * total;
-for (let i = 0; i > squares.length; i++) {
-    console.log("Het volume van " + numbers[i] + " is " + volume);
+console.log(squares)
+
+for (let i = 0; i < squares.length; i++) {
+    console.log("Het volume van " + squares[i] + " is " + (squares[i] ^ 3));
 }
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:

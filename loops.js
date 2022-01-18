@@ -62,10 +62,10 @@ for (let i = 0; i < 16; i++) {
 // ==========================================
 for (let i = 0; i < 10; i++) {
     if (i >= 6) {
-        console.log(">>" + i);
+        console.log(">> " + i);
     }
     else if (i>=3) {
-        console.log(">" + i)
+        console.log("> " + i)
     }
     else console.log(i)
 }
